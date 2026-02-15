@@ -4,7 +4,7 @@ const listContainer = document.getElementById("listContainer");
 
 // Добавляем обработчик события клика на кнопку
 addListBtn.addEventListener("click", function () {
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < 15; i++) {
         // Создаем новый элемент списка
         const listItem = document.createElement("li");
         listItem.textContent = `${i + 1}-й элемент списка`;
